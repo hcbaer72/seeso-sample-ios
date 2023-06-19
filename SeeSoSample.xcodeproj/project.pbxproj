@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27CC57462A3A487500FCF7C4 /* SeeSo 3.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CC57442A3A486000FCF7C4 /* SeeSo 3.xcframework */; };
+		27CC57472A3A487500FCF7C4 /* SeeSo 3.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27CC57442A3A486000FCF7C4 /* SeeSo 3.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D32578CB24937B7E0073F5A6 /* CalibrationPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32578CA24937B7E0073F5A6 /* CalibrationPointView.swift */; };
 		D32578D824970D6D0073F5A6 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32578D724970D6D0073F5A6 /* RadioButton.swift */; };
 		D33B692524931FBE00137492 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33B692424931FBE00137492 /* AppDelegate.swift */; };
@@ -26,6 +28,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				27CC57472A3A487500FCF7C4 /* SeeSo 3.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,6 +36,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		27CC57442A3A486000FCF7C4 /* SeeSo 3.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "SeeSo 3.xcframework"; sourceTree = "<group>"; };
 		D32578CA24937B7E0073F5A6 /* CalibrationPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalibrationPointView.swift; sourceTree = "<group>"; };
 		D32578D724970D6D0073F5A6 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 		D33B692124931FBE00137492 /* SeeSoSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeSoSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27CC57462A3A487500FCF7C4 /* SeeSo 3.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +107,7 @@
 		D33B693F2493535200137492 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				27CC57442A3A486000FCF7C4 /* SeeSo 3.xcframework */,
 				D33B693D2493532B00137492 /* GazePointView.swift */,
 				D32578CA24937B7E0073F5A6 /* CalibrationPointView.swift */,
 				D3F882E5265C923E0013B273 /* UserStatusLabel.swift */,
@@ -339,7 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BMGDL6J6CA;
+				DEVELOPMENT_TEAM = FW49A964NY;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SeeSoSample",
@@ -353,7 +359,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = camp.visual.ios.sample.SeeSoSample;
+				PRODUCT_BUNDLE_IDENTIFIER = "baer-seeso";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_STYLE = all;
 				SWIFT_VERSION = 5.0;
@@ -366,7 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BMGDL6J6CA;
+				DEVELOPMENT_TEAM = FW49A964NY;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SeeSoSample",
@@ -380,7 +386,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = camp.visual.ios.sample.SeeSoSample;
+				PRODUCT_BUNDLE_IDENTIFIER = "baer-seeso";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_STYLE = all;
 				SWIFT_VERSION = 5.0;
